@@ -20,13 +20,13 @@
   "author": "Jacob Gable <jacob.gable@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jshint": "^2.8.0",
-    "mocha": "~2.3.4",
+    "jshint": "^2.13.5",
+    "mocha": "^10.0.0",
     "should": "~8.1.1"
   },
   "dependencies": {
-    "grunt": "~0.4.1",
-    "cache-swap": "~0.3.0"
+    "cache-swap": "~0.3.0",
+    "grunt": "^1.5.3"
   },
   "scripts": {
     "test": "npm run lint && mocha",
